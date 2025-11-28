@@ -61,7 +61,7 @@ Prints validation accuracy + classification report.
 
 Trains final model on full training data and saves:
 submission_baseline_rf.csv (columns: PassengerId, Survived).
-
+```bash
 # 📁 Repository structure
 
 ├── titanic_pipeline.py          # main script (functions + main)
@@ -70,6 +70,7 @@ submission_baseline_rf.csv (columns: PassengerId, Survived).
 ├── test.csv                     # (not included)
 ├── requirements.txt
 └── README.md
+```
 ✅ Tips to Improve Performance
 Better Age imputation by Title or Pclass + Title groups.
 
