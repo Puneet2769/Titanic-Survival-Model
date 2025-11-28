@@ -62,7 +62,7 @@ Prints validation accuracy + classification report.
 Trains final model on full training data and saves:
 submission_baseline_rf.csv (columns: PassengerId, Survived).
 
-📁 Repository structure
+# 📁 Repository structure
 
 ├── titanic_pipeline.py          # main script (functions + main)
 ├── submission_baseline_rf.csv   # generated submission (after running)
@@ -81,9 +81,9 @@ Use target encoding or cross-validated mean encoding for high-cardinality featur
 
 Try LightGBM / XGBoost / stacking for stronger leaderboard results.
 
-👤 Author
+# 👤 Author
 Puneet Poddar
 Kaggle: https://www.kaggle.com/puneet2769
 
-📌 License / Attribution
+# 📌 License / Attribution
 Use freely for learning and experimentation. When publishing results derived from this pipeline, credit the original dataset source (Kaggle).
